@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #250057;
+}
+
+.input-box {
+    background-color: #fff;
+    width: 90%;
+    max-width: 500px;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 300px auto;
+    display: flex;
+    align-items: center;
+    position: relative;
+
+}
+
+.input-box input {
+    color: #555;
+    width: 100%;
+    padding: 10px 0;
+    font-size: 1.5rem;
+    border: none;
+    outline: none;
+}
+
+.input-box i {
+    position: absolute;
+    left: 87%;
+    font-size: 2rem;
+    cursor: pointer;
+}
